@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 
-interface CustomModal {
+interface ICustomModal {
   isOpen: boolean;
   text: string;
   fullDescription: string;
@@ -23,7 +23,7 @@ const style = {
   p: 4,
 };
 
-export const CustomModal = (props: CustomModal) => {
+export const CustomModal = (props: ICustomModal) => {
   const { isOpen, text, fullDescription, lifeMin, lifeMax } = props;
   const [open, setOpen] = React.useState(isOpen);
   const handleOpen = () => setOpen(true);

@@ -1,5 +1,5 @@
-import { Block } from "../../components/Block";
-import React, { useEffect, useState } from "react";
+import { Block } from "../../components";
+import React, { useState } from "react";
 import { letters, mockLetters } from "../../mockData";
 
 export const BlockContainer = () => {

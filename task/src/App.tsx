@@ -1,9 +1,8 @@
 import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
+import { DogsContainer, HomeContainer, BlockContainer } from "./containers";
 
 import "./App.css";
-import { BlockContainer } from "./containers/BlockContainer";
-import { DogsContainer, HomeContainer } from "./containers";
 
 function App() {
   return (
