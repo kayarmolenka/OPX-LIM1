@@ -1,0 +1,13 @@
+.breeds-dog__wrapper ul {
+    list-style-type: none;
+}
+
+.breeds-dog__wrapper li {
+    height: 87px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.breeds-dog__wrapper li:hover {
+    background: #61dafb;
+}
